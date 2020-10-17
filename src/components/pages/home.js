@@ -1,14 +1,16 @@
 import React from 'react';
 import '../../App.css';
-import mainsec from '../mainsec';
 
-function home() {
+import HeroSection from '../HeroSection';
+
+
+function Home() {
   return (
     <>
-      <mainsec />
-
+      <HeroSection />
+      
     </>
   );
 }
 
-export default home;
+export default Home;
